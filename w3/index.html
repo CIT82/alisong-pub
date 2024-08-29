@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8-Ball Game</title>
+    <style>
+        @font-face {
+            font-family: "wizard";
+            src: url("./Witches\ Magic.ttf"); 
+}
+        body {
+            font-family: "wizard", monospace;
+            text-align: center;
+            padding-top: 20px;
+            background-image: url("./background-wizard.webp");
+            background-size: cover;
+        }
+        #result {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #CBBEE5;
+            text-shadow: 2px 2px 2px #271D3E;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-family: "wizard", monospace;
+            background-color: #271D3E;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #CBBEE5;
+        }
+        input {
+            border: solid 4px #271D3E;
+            width: 400px;
+            height: 30px;
+            border-radius: 10px;
+            font-family: "wizard", monospace;
+            background-color: #CBBEE5;
+        }
+        .magic {
+            color: #CBBEE5;
+            font-size: 100px;
+            text-shadow: 2px 2px 2px #271D3E;
+        }
+        .ask {
+            color: #CBBEE5;
+            font-size: 50px;
+            margin-top: -50px;
+            text-shadow: 2px 2px 2px #271D3E;
+        }
+        img {
+            border-radius: 10px;
+            border: solid 8px #CBBEE5;
+            margin-bottom: -50px;
+            box-shadow: 2px 2px 2px #271D3E;
+        }
+    </style>
+</head>
+<body>
+    <img src="./magic8ball.webp" alt="magic 8 ball" width="300px" height="300px">
+    <h1 class="magic">~&#9733; magic 8-ball &#9733;~</h1>
+    <p class="ask">ask a yes or no question:</p>
+    <div id="result"></div>
+    <input type="text" id="question" placeholder="type your question here..." />
+    <br>
+    <button onclick="getAnswer()">&#9733; ask &#9733;</button>
+
+    <script>
+        function getAnswer() {
+            const answers = [
+                "yes!", 
+                "no :(", 
+                "maybe...", 
+                "ask again later", 
+                "definitely", 
+                "absolutely not", 
+                "try asking again", 
+                "It is certain", 
+                "Very doubtful",
+                "maybe someday",
+                "great question! no.",
+                "don't count on it!",
+                "absolutely, positively, unequivocally, definitely maybe.",
+                "my sources say yes",
+                "err. 404 - answer not found",
+                "yes definitely!!!"
+            ];
+            const randomIndex = Math.floor(Math.random() * answers.length);
+            const resultDiv = document.getElementById("result");
+            resultDiv.textContent = answers[randomIndex];
+        }
+    </script>
+</body>
+</html>
