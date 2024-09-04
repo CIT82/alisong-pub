@@ -1,0 +1,59 @@
+body {
+    background-image: url('http://dl2.glitter-graphics.net/pub/164/164402ducstjae0m.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headers {
+    text-align: center;
+    background-color: #F5AFD8;
+    border-radius: 10px;
+    border: 3px dashed black;
+    width: 60%;
+    text-shadow: 1px 1px 2px white;
+    margin: auto;
+    margin-top: 50px; 
+    padding: 10px;
+}
+
+.divider {
+    margin: a
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px white;
+    padding: 3px;
+}
+
+input {
+    margin: 8px;
+}
+
+.submitform {
+    background-color: #F5AFD8;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #F5AFD8;
+    margin-top: 10px;
+    
+}
+.cryptid {
+
+}
