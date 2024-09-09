@@ -1,0 +1,54 @@
+@font-face {
+    font-family: crayon;
+    src: url('./Oceanside\ Typewriter.ttf');
+}
+
+body {
+    font-family: crayon;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(245, 136, 180);
+}
+
+header {
+    background-color: #792f6df9;
+    color: white;
+    padding: 20px;
+    font-size:  25px;
+}
+
+main {
+    padding: 15px;
+    margin: 15px;
+    background-color:rgb(234, 185, 239);
+}
+
+.outline {
+    border-radius: 15px;
+    font-style: italic;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.lists {
+    display: flex;
+    justify-content: space-around;
+}
+
+.listh2 {
+    font-size: 30px;
+}
+
+.listitems {
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(137, 83, 167);
+    padding: 10px 0;
+    color:darkblue;
+}
+
+label {
+    display:block;
+}
