@@ -1,0 +1,35 @@
+@font-face {
+    font-family: typewriter;
+    src: url('../fonts/Oceanside\ Typewriter.ttf');
+}
+
+main {
+    background-color: #dda15e;
+    height: 100vh;
+    font-family: typewriter;
+    font-size: 20px;
+}
+
+header {
+    background-color: #606c38;
+    height: 80px;
+    color: #fefae0;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h1 {
+    font-family: typewriter;
+}
+
+p {
+    color: #fefae0;
+}
+
+.button {
+    margin: auto;
+}
+
+.modal-dialog {
+    color: #606c38;
+}
