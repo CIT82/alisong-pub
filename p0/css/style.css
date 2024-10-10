@@ -11,9 +11,9 @@
 *
 * ======================================================= */
 body {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.3);
   background: #344D54;
@@ -58,7 +58,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #061B28;
+  color: #344D54;
   outline: none;
   text-decoration: none;
 }
@@ -70,7 +70,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   font-weight: 700;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
   color: #fff !important;
 }
 .scrolled .fh5co-nav #fh5co-logo {
@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .section-heading h2 {
   font-style: 40px;
   color: #fff;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
 }
 
 #fh5co-about .img-wrap img {
@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-featured-menu .fh5co-heading h2, #fh5co-gallery .fh5co-heading h2, #fh5co-reservation-form .fh5co-heading h2 {
   color: #fff;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
 }
 #fh5co-featured-menu .fh5co-item-wrap, #fh5co-gallery .fh5co-item-wrap, #fh5co-reservation-form .fh5co-item-wrap {
   padding-left: 20px;
@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-featured-testimony .fh5co-heading h2 {
   color: #fff;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
 }
 #fh5co-featured-testimony .img-to-responsive img {
   margin-bottom: 20px;
@@ -601,7 +601,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-slider .fh5co-heading h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
   color: #fff;
 }
 
@@ -780,7 +780,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 #fh5co-started .fh5co-heading h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
   color: #fff;
   margin-bottom: 20px !important;
 }
@@ -1034,7 +1034,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-blog .fh5co-heading h2, #fh5co-contact .fh5co-heading h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
   color: #fff;
 }
 
@@ -1551,7 +1551,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1731,7 +1731,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   font-size: 20px;
   font-weight: 300;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: monospace;
   color: #fff;
 }
 .form-control:active, .form-control:focus {
@@ -1791,6 +1791,27 @@ textarea {
 .panel-heading {
   background-color: #061B28;
   color: white;
+}
+
+.eventCard {
+  background-color: #718388;
+  margin-bottom: 15px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.card-header {
+  font-size: 30px;
+}
+
+.card-text, .card-title {
+  color: #061B28;
+  font-size: 15px;
+}
+
+#dateclass {
+  color:#061B28;
 }
 
 /*# sourceMappingURL=style.css.map */
